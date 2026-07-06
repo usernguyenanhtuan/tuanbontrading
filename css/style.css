@@ -218,3 +218,31 @@ body{
     background:#a67836;
 
 }
+
+.shake-btn{
+    display:inline-block;
+    padding:12px 24px;
+    text-decoration:none;
+    border-radius:10px;
+    font-weight:bold;
+
+    animation: shake 3.5s infinite;
+}
+
+@keyframes shake{
+    0%,90%,100%{
+        transform: translateX(0);
+    }
+    92%{
+        transform: translateX(-4px);
+    }
+    94%{
+        transform: translateX(4px);
+    }
+    96%{
+        transform: translateX(-4px);
+    }
+    98%{
+        transform: translateX(4px);
+    }
+}
