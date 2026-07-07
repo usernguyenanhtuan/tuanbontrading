@@ -252,3 +252,11 @@ body{
         transform: translateX(4px);
     }
 }
+
+.floating-app-btn{
+    position: sticky;
+    display: inline-block;
+    bottom: 15px;
+    z-index: 999;
+    transition: .25s;
+}
