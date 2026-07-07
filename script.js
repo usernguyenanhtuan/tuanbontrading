@@ -4,10 +4,11 @@ const btn = document.querySelector('.floating-app-btn');
 window.addEventListener('scroll', () => {
     const rect = card.getBoundingClientRect();
 
-    // Chưa tới khối hoặc đã qua khối thì ẩn
-    if (rect.top > window.innerHeight || rect.bottom < 50) {
-        btn.style.display = 'none';
-    } else {
+    const half = rect.height / 2;
+
+    if (rect.top <= half && rect.bottom >= half) {
         btn.style.display = 'block';
+    } else {
+        btn.style.display = 'none';
     }
 });
