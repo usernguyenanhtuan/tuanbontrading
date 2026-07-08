@@ -6,7 +6,7 @@ window.addEventListener('scroll', () => {
 
     const half = rect.height / 2;
 
-    if (rect.top <= rect.height *0.2 && rect.bottom >= rect.height *0.5) {
+    if (rect.top <= rect.height *0.2 && rect.bottom >= rect.height *0) {
         btn.style.display = 'block';
     } else {
         btn.style.display = 'none';
