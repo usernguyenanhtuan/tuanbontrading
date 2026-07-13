@@ -163,7 +163,7 @@ body{
   border-radius: 14px;
 
 }
-
+------------------
 
 .broker-card{
 
@@ -281,6 +281,18 @@ body{
 
 .browser-note{
     width:92%;
+    margin:20px auto;
+    padding:14px 16px;
+    background:rgba(214,178,111,.15);
+    border-left:4px solid #d6b26f;
+    border-radius:12px;
+    color:#f8f5f2;
+    line-height:1.7;
+    font-size:15px;
+}
+
+.browser-note{
+    width:92%;
     margin:24px auto;
     padding:16px 18px;
     background:rgba(214,178,111,.12);
@@ -297,4 +309,17 @@ body{
 .browser-note strong{
     color:#d6b26f;
     font-weight:600;
+}
+
+#noteFull{
+    display:none;
+}
+
+#showNote{
+    background:none;
+    border:none;
+    color:#d6b26f;
+    font-weight:600;
+    margin-left:5px;
+    cursor:pointer;
 }

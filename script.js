@@ -13,4 +13,30 @@ window.addEventListener('scroll', () => {
     }
 });
 
+/* ----- */
 
+const showNote = document.getElementById("showNote");
+const noteShort = document.getElementById("noteShort");
+const noteFull = document.getElementById("noteFull");
+
+if(showNote){
+
+    showNote.addEventListener("click",()=>{
+
+        if(noteFull.style.display === "none"){
+
+            noteShort.style.display="none";
+            noteFull.style.display="inline";
+            showNote.innerText="Đóng hướng dẫn";
+
+        }else{
+
+            noteShort.style.display="inline";
+            noteFull.style.display="none";
+            showNote.innerText="Xem hướng dẫn";
+
+        }
+
+    });
+
+}
