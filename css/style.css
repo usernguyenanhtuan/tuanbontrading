@@ -163,7 +163,7 @@ body{
   border-radius: 14px;
 
 }
-------------------
+
 
 .broker-card{
 
@@ -277,4 +277,24 @@ body{
     font-size:14px;
     color:rgba(248,245,242,.65);
     letter-spacing:.5px;
+}
+
+.browser-note{
+    width:92%;
+    margin:24px auto;
+    padding:16px 18px;
+    background:rgba(214,178,111,.12);
+    border:1px solid rgba(214,178,111,.35);
+    border-left:5px solid #d6b26f;
+    border-radius:14px;
+
+    color:#f5f2ec;
+    font-size:16px;
+    line-height:1.8;
+    font-weight:400;
+}
+
+.browser-note strong{
+    color:#d6b26f;
+    font-weight:600;
 }
