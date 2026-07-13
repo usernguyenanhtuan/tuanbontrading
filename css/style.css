@@ -149,17 +149,11 @@ body{
     transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-@media (hover: hover) and (pointer: fine) {
-    .item:hover {
-        transform: scale(1.05);
-        box-shadow: 0 10px 25px rgba(0,0,0,.15);
-    }
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
 }
 
-.item{
-    -webkit-tap-highlight-color: transparent;
-    touch-action: manipulation;
-}
 
 .item img{
 
