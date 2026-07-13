@@ -142,22 +142,26 @@ body{
 
 }
 
+.item {
+    display: flex;
+    align-items: center;
+    
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+
 .item{
-    display:flex;
-    align-items:center;
-    gap:20px;
-
-    background:#fff;
-    border-radius:18px;
-    padding:18px 22px;
-    margin-bottom:18px;
-
-    text-decoration:none;
-    color:#3d2c28;
-    font-size:clamp(16px,2vw,19px);
-    font-weight:600;
-
     -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+}
+
+.item img{
+
+    width: 55px;
+  height: 55px;
+  object-fit: cover;   /* giữ ảnh không méo */
+  border-radius: 14px;
+
 }
 
 
@@ -172,9 +176,6 @@ body{
     align-items:center;
     justify-content:flex-start; 
 
-}
-.overlay{
-    pointer-events:none;
 }
 
 .broker-card img{
