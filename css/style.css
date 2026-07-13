@@ -263,48 +263,13 @@ body{
 
 .footer{
     margin-top:60px;
-    padding:50px 20px 30px;
+    padding:25px 20px;
     text-align:center;
-
-    border-top:1px solid rgba(214,178,111,.25);
-    background:transparent;
-}
-
-.footer h3{
-    font-size:24px;
-    color:var(--gold);
-    margin-bottom:12px;
+    border-top:1px solid rgba(214,178,111,.2);
 }
 
 .footer p{
-    color:rgba(248,245,242,.85);
-    line-height:1.8;
-}
-
-.footer-links{
-    display:flex;
-    justify-content:center;
-    gap:28px;
-    flex-wrap:wrap;
-    margin:28px 0;
-}
-
-.footer-links a{
-    color:var(--text);
-    text-decoration:none;
-    font-weight:500;
-    transition:.25s;
-}
-
-.footer-links a:hover{
-    color:var(--gold);
-}
-
-.copyright{
-    margin-top:25px;
-    padding-top:20px;
-    border-top:1px solid rgba(214,178,111,.15);
-
     font-size:14px;
-    color:rgba(248,245,242,.55);
+    color:rgba(248,245,242,.65);
+    letter-spacing:.5px;
 }
